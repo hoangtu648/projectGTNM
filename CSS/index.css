@@ -1,0 +1,99 @@
+.content_title {
+    padding: 50px 0;
+}
+
+.content_title h3 {
+    font-size: 32px;
+    color: #ff4f81;
+}
+
+.content_title p {
+    font-size: 20px;
+    color: black;
+}
+
+.content_col {
+    padding: 20px;
+}
+
+.content_item {
+    width: 100%;
+    height: 600px;
+    background-color: aqua;
+}
+
+.content_item .title_item {
+    width: 100%;
+    height: 20%;
+
+}
+
+.content_item .img_item {
+    width: 100%;
+    height: 40%;
+}
+
+.content_item .content_item {
+    width: 100%;
+    height: 40%;
+}
+
+.content_item .img_item .cover_img {
+    width: 100%;
+    height: 100%;
+    /* Làm nét hình ảnh */
+    image-rendering: pixelated; 
+}
+
+.email{
+    background-image:  radial-gradient(circle farthest-corner at 0% 50%, rgba(255, 1, 1, 0.15), transparent 47%), radial-gradient(circle farthest-corner at 40% 130%, rgba(122, 167, 255, 0.41), transparent 58%);
+    background-color: #1d1d1d;
+    color: #fff;
+    width: 100%;
+    height: 300px;
+    padding: 80px;
+}
+
+.email .email_content {
+    padding: 0 30px;
+}
+
+.email .email_content .form {
+    border-radius: 9px;
+    padding: 19px 12px;
+    height: 44px;
+    width: 250px;
+    border-style: solid ;
+    border-width: 1px;
+    border-color: #e7ecf0;
+    background-color: #f5f6f7;
+    transition: border-color 200ms ease;
+    font-size: 12px;
+    line-height: 1.4em;
+}
+
+.form:focus {
+    border-color: #33383f;
+    outline: #242629 2px solid;
+    
+}
+
+#btn_gui {
+    color: #fff;
+    margin-left: 10px;
+    background-color: #495158;
+    font-size: 18px;
+    line-height: 1.5;
+    border: none;
+    text-align: center;
+    margin-bottom: 8px;
+    padding: 8px 28px;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    border-radius: 9px;
+    transition: box-shadow 200ms ease, transform 200ms ease, border-color 200ms ease, color 200ms ease, background-color 200ms ease, -webkit-transform 200ms ease;
+}
+
+#btn_gui:hover {
+    background-color: #33383f;
+}
